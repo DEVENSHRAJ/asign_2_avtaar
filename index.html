@@ -1,294 +1,275 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="index_avtaar_assng1.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <title>Avtaar Assignment 2</title>
-</head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Avtaar Assignment 2</title>
+  </head>
   <body class="main-bg">
-
-              <!-- section of registraztion -->
-              <div class="container register" id="registeration" style="display:none">
-   <div class="row">
-      <div class="col-md-3 register-left">
-         <img src="img\rectangle.jpg" alt=""/>
-         <h3>Avtaar</h3>
-      </div>
-      <div class="col-md-9 register-right">
-
-         <div class="tab-content" id="myTabContent">
+    <!-- section of registraztion -->
+    <div class="container register" id="registeration" style="display:none">
+      <div class="row">
+        <div class="col-md-3 register-left">
+          <img src="img\rectangle.jpg" alt="" />
+          <h3>Avtaar</h3>
+        </div>
+        <div class="col-md-9 register-right">
+          <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-               <h3 class="register-heading">Register here</h3>
-               <div class="row register-form">
-                  <div class="col-md-6">
-                     <div class="form-group">
-                        <input type="text" class="form-control" id="first-name" placeholder="First Name *" value="" />
-                     </div>
-                     <div class="form-group">
-                        <input type="text" class="form-control" id="last-name" placeholder="Last Name *" value="" />
-                     </div>
-                     <div class="form-group">
-                        <input type="password" id="registerpsd" class="form-control" placeholder="Password *" value="" />
-                     </div>
-                     <div class="form-group">
-                        <input type="password" class="form-control" id="confirmpsd" placeholder="Confirm Password *" value="" />
-                     </div>
-                     <div class="form-group">
-                        <div class="maxl">
-                           <label class="radio inline">
-                           <input type="radio" id="genmale" name="gender" value="male">
-                           <span> Male </span>
-                           </label>
-                           <label class="radio inline">
-                           <input type="radio" name="gender" id="genfemale" value="female">
-                           <span>Female </span>
-                           </label>
-                        </div>
-                     </div>
+              <h3 class="register-heading">Register here</h3>
+              <div class="row register-form">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="first-name" placeholder="First Name *" value="" />
                   </div>
-                  <div class="col-md-6">
-                     <div class="form-group">
-                        <input type="email" class="form-control" id="regemailid" placeholder="Your Email *" value="" />
-                     </div>
-                     <div class="form-group">
-                        <input type="text" id="phone_num" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
-                     </div>
-                     <div class="form-group">
-                        <select class="form-control" id="selectquestion">
-                           <option class="hidden" selected disabled>Please select your Sequrity Question</option>
-                           <option>What is your Birthdate?</option>
-                           <option>What is Your old Phone Number</option>
-                           <option>What is your Pet Name?</option>
-                        </select>
-                     </div>
-                     <div class="form-group">
-                        <input type="text" id="reg_answer" class="form-control" placeholder="Enter Your Answer *" value="" />
-                     </div>
-                     <input type="submit" class="btnRegister" id="registration_button" value="Register"/>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="last-name" placeholder="Last Name *" value="" />
                   </div>
-               </div>
+                  <div class="form-group">
+                    <input type="password" id="registerpsd" class="form-control" placeholder="Password *" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="confirmpsd" placeholder="Confirm Password *" value="" />
+                  </div>
+                  <div class="form-group">
+                    <div class="maxl">
+                      <label class="radio inline">
+                        <input type="radio" id="genmale" name="gender" value="male">
+                        <span> Male </span>
+                      </label>
+                      <label class="radio inline">
+                        <input type="radio" name="gender" id="genfemale" value="female">
+                        <span>Female </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="regemailid" placeholder="Your Email *" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="phone_num" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control" id="selectquestion">
+                      <option class="hidden" selected disabled>Please select your Sequrity Question</option>
+                      <option>What is your Birthdate?</option>
+                      <option>What is Your old Phone Number</option>
+                      <option>What is your Pet Name?</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="reg_answer" class="form-control" placeholder="Enter Your Answer *" value="" />
+                  </div>
+                  <input type="submit" class="btnRegister" id="registration_button" value="Register" />
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
-</div>
-<!-- avtaar login here-->
-<div id="login_page">
-    <div class="Rectangle1391 default_1"  id="avtaar_band" >
-      <img  style="position:absolute; left:224px; top:16px;" src="img\rectangle.jpg" alt="avtaar logo here">
+    </div>
+    <!-- avtaar login here-->
+    <div id="login_page">
+      <div class="Rectangle1391 default_1" id="avtaar_band">
+        <img style="position:absolute; left:224px; top:16px;" src="img\rectangle.jpg" alt="avtaar logo here">
         <a href="#" class="ASSIGNMENTS">ASSIGNMENTS</a>
         <a href="#" class="INTERNSHIP">INTERNSHIP</a>
         <a href="#" class="ABOUT_US">ABOUT US</a>
         <a href="#" class="CONTACT_US">CONTACT US</a>
-    </div>
-    <div class="login-container text-c" id="login_avtaar">
-            <div>
-                <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
-            </div>
-                <h3 class="text-whitesmoke"><span id="welcome_login">Welcome to Avtaar</span><b id="registered_login" style="color:green; display:none;">Registered Successfully, SignUp Now!!!<br>Login Now</b></h3>
-            <div class="container-content">
-                <form class="margin-t" id="signup-form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Username is email id" id="signup-email" required="">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" placeholder="*********"  id="signup-password" required="">
-                    </div>
-                    <button type="submit" class="form-button button-l margin-b">Sign In</button>
-                    <p class="text-center"><small>Do not have an account?</small></p>
-                    <a class="text-darkyellow" href="#" onclick="display_registeration_hide_login()"><small>Sign Up</small></a>
-                </form>
-                <p class="margin-t"><small> Avtaar assignment 2</small> </p>
-            </div>
+      </div>
+      <div class="login-container text-c" id="login_avtaar">
+        <div>
+          <h1 class="logo-badge text-whitesmoke">
+            <span class="fa fa-user-circle"></span>
+          </h1>
         </div>
-        <!--logout section-->
-        <div class="login-container"  id="logedin" style="color:white; display:none; left:500px; top:428px;">
-              <div class="logout_sctn">
-                <p  style="color:red;">Hi you have loged in now<span style="color:blue; font-size: 25px;" id="person_name"><span></p>
-                <input type="click" class="btnRegister" onclick="logout()" style="text-align: center;" id="logout_button" value="logout"/>
-              </div>
-
-          </div>
-</div>
-
-<!--- logout here-->
-
-
-<!-- firebase code hjere-->
-<script type="module">
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
-import { getAuth, createUserWithEmailAndPassword , signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js";
-import { getDatabase, ref, set, child, get  } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
-
-
-
-
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-apiKey: "AIzaSyBpQvr8w2JrnNPmib4qactBQaFBZydtZbw",
-authDomain: "avtaar-assignment-2-bbaae.firebaseapp.com",
-databaseURL: "https://avtaar-assignment-2-bbaae-default-rtdb.firebaseio.com/",
-projectId: "avtaar-assignment-2-bbaae",
-storageBucket: "avtaar-assignment-2-bbaae.appspot.com",
-messagingSenderId: "736177590645",
-appId: "1:736177590645:web:c42f36e7258f548960033c",
-measurementId: "G-5N6WH3NJTC"
-};
-
-
-
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const auth = getAuth();
-const database = getDatabase(app);
-const dbRef = ref(getDatabase(app));
-
-
-// user dat hide_regis_loginfunction
-function update_userdata(){
-  var Userdata={
-    FirstName:document.querySelector('#first-name').value,
-    LastName:document.querySelector('#last-name').value,
-    registerPassword:document.querySelector('#registerpsd').value,
-    confirmPassword:document.querySelector('#confirmpsd').value,
-
-    registergender : (document.querySelector('#genmale').checked) ? "Male" : (document.querySelector('#genfemale').checked ? "Female":"genNone"),
-
-    Email:document.querySelector('#regemailid').value,
-    Phone:document.querySelector('#phone_num').value,
-    Security_question:document.getElementById("selectquestion").value,
-    Security_answer:document.querySelector('#reg_answer').value,
-  }
-  return Userdata;
-
-}
-// registeration here for first time
-
-
-//write data to the database
-
-function writeUserData( Userdata) {
-  set(ref(database,"users-"+(Userdata.Email).replace(".","__")), {
-    FirstName: Userdata.FirstName,
-    LastName: Userdata.LastName,
-    registerPassword : Userdata.registerPassword,
-    confirmPassword : Userdata.confirmPassword,
-    registergender:Userdata.registergender,
-  Email : Userdata.Email,
-    Phone : Userdata.Phone,
-    Security_question : Userdata.Security_question,
-    Security_answer : Userdata.Security_answer
-  });
-
-}
-
-
-
-
-const register_user = document.querySelector('#registration_button');
-register_user.addEventListener('click', (e) => {
-  var userdata_used=update_userdata();
-  // resolve then
-
-    createuseremailpsd(auth,userdata_used.Email,userdata_used.registerPassword);
-    writeUserData(userdata_used);
-});
-
-// sign up create the user
-function createuseremailpsd(auth,email,psd){
-  createUserWithEmailAndPassword(auth,email,psd).then(cred => {
-    console.log(cred.user);
-    //signinForm.reset();
-    // close the signup modal & reset form
-    registered_perfectly();
-    document.getElementById("registered_login").style.display = "block";
-  },registration_failed());
-
-
-}
-
-// login again next time login
-// login
-const loginForm = document.querySelector('#signup-form');
-loginForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  // get user info
-  const email = loginForm['signup-email'].value;
-  const password = loginForm['signup-password'].value;
-
-  // log the user in
-  signInWithEmailAndPassword(auth,email, password).then((cred) => {
-    const mail=cred.user.email;
-    // close the signup modal & reset form
-    retrivedata(mail);
-
-    loginForm.reset();
-    hide_regis_login();
-    console.log('logged in successfully');
-  });
-    });
-
-
-    //signout the User
-    const logout = document.querySelector('#logout_button');
-      logout.addEventListener('click', (e) => {
-      e.preventDefault();
-      auth.signOut().then(function() {
-        console.log('Signed Out');
-      }, function(error) {
-        console.error('Sign Out Error', error);
+        <h3 class="text-whitesmoke">
+          <span id="welcome_login">Welcome to Avtaar</span>
+          <b id="registered_login" style="color:green; display:none;">Registered Successfully, SignUp Now!!! <br>Login Now </b>
+        </h3>
+        <div class="container-content">
+          <form class="margin-t" id="signup-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Username is email id" id="signup-email" required="">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="*********" id="signup-password" required="">
+            </div>
+            <button type="submit" class="form-button button-l margin-b">Sign In</button>
+            <p class="text-center">
+              <small>Do not have an account?</small>
+            </p>
+            <a class="text-darkyellow" href="#" onclick="display_registeration_hide_login()">
+              <small>Sign Up</small>
+            </a>
+          </form>
+          <p class="margin-t">
+            <small> Avtaar assignment 2</small>
+          </p>
+        </div>
+      </div>
+      <!--logout section-->
+      <div class="login-container" id="logedin" style="color:white; display:none; left:500px; top:428px;">
+        <div class="logout_sctn">
+          <p style="color:red;">Hi you have loged in now <span style="color:blue; font-size: 25px;" id="person_name">
+              <span>
+          </p>
+          <input type="click" class="btnRegister" onclick="logout()" style="text-align: center;" id="logout_button" value="logout" />
+        </div>
+      </div>
+    </div>
+    <!--- logout here-->
+    <!-- firebase code hjere-->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import {
+        initializeApp
+      } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+      import {
+        getAnalytics
+      } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+      import {
+        getAuth,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword
+      } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js";
+      import {
+        getDatabase,
+        ref,
+        set,
+        child,
+        get
+      } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBpQvr8w2JrnNPmib4qactBQaFBZydtZbw",
+        authDomain: "avtaar-assignment-2-bbaae.firebaseapp.com",
+        databaseURL: "https://avtaar-assignment-2-bbaae-default-rtdb.firebaseio.com/",
+        projectId: "avtaar-assignment-2-bbaae",
+        storageBucket: "avtaar-assignment-2-bbaae.appspot.com",
+        messagingSenderId: "736177590645",
+        appId: "1:736177590645:web:c42f36e7258f548960033c",
+        measurementId: "G-5N6WH3NJTC"
+      };
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const auth = getAuth();
+      const database = getDatabase(app);
+      const dbRef = ref(getDatabase(app));
+      // user dat hide_regis_loginfunction
+      function update_userdata() {
+        var Userdata = {
+          FirstName: document.querySelector('#first-name').value,
+          LastName: document.querySelector('#last-name').value,
+          registerPassword: document.querySelector('#registerpsd').value,
+          confirmPassword: document.querySelector('#confirmpsd').value,
+          registergender: (document.querySelector('#genmale').checked) ? "Male" : (document.querySelector('#genfemale').checked ? "Female" : "genNone"),
+          Email: document.querySelector('#regemailid').value,
+          Phone: document.querySelector('#phone_num').value,
+          Security_question: document.getElementById("selectquestion").value,
+          Security_answer: document.querySelector('#reg_answer').value,
+        }
+        return Userdata;
+      }
+      // registeration here for first time
+      //write data to the database
+      function writeUserData(Userdata) {
+        set(ref(database, "users-" + (Userdata.Email).replace(".", "__")), {
+          FirstName: Userdata.FirstName,
+          LastName: Userdata.LastName,
+          registerPassword: Userdata.registerPassword,
+          confirmPassword: Userdata.confirmPassword,
+          registergender: Userdata.registergender,
+          Email: Userdata.Email,
+          Phone: Userdata.Phone,
+          Security_question: Userdata.Security_question,
+          Security_answer: Userdata.Security_answer
+        });
+      }
+      const register_user = document.querySelector('#registration_button');
+      register_user.addEventListener('click', (e) => {
+        var userdata_used = update_userdata();
+        // resolve then
+        createuseremailpsd(auth, userdata_used.Email, userdata_used.registerPassword);
+        writeUserData(userdata_used);
       });
-  });
+      // sign up create the user
+      function createuseremailpsd(auth, email, psd) {
+        createUserWithEmailAndPassword(auth, email, psd).then(cred => {
+          console.log(cred.user);
+          //signinForm.reset();
+          // close the signup modal & reset form
+          registered_perfectly();
+          document.getElementById("registered_login").style.display = "block";
+        }, registration_failed());
+      }
+      // login again next time login
+      // login
+      const loginForm = document.querySelector('#signup-form');
+      loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // get user info
+        const email = loginForm['signup-email'].value;
+        const password = loginForm['signup-password'].value;
+        // log the user in
+        signInWithEmailAndPassword(auth, email, password).then((cred) => {
+          const mail = cred.user.email;
+          // close the signup modal & reset form
+          retrivedata(mail);
+          loginForm.reset();
+          hide_regis_login();
+          console.log('logged in successfully');
+        });
+      });
+      //signout the User
+      const logout = document.querySelector('#logout_button');
+      logout.addEventListener('click', (e) => {
+        e.preventDefault();
+        auth.signOut().then(function() {
+          console.log('Signed Out');
+        }, function(error) {
+          console.error('Sign Out Error', error);
+        });
+      });
+      //retriving data from the firebase of the users
+      function retrivedata(mail) {
+        //console.log(mail);
+        get(child(dbRef, "users-" + mail.replace(".", "__"))).then((snapshot) => {
+          //console.log("users-"+mail.replace(".","__"));
+          if (snapshot.exists()) {
+            console.log(snapshot.val());
+            document.querySelector('#person_name').innerHTML = " " + snapshot.val().FirstName;
+          } else {
+            console.log("No data available");
+          }
+        }).catch((error) => {
+          console.error(error);
+        });
+      }
+      /*
+        setUserProperties(analytics, Userdata).then(rtn =>{
+          console.log(rtn);
+          console.log('Registration completed login now');
+          registered();
+        });
+        */
+      /*
+      // generalised here
+      const signinForm = document.querySelector('#signup-form');
+      signinForm.addEventListener('submit', (e) => {
+        e.preventDefault();
 
-//retriving data from the firebase of the users
-
-function retrivedata(mail){
-  //console.log(mail);
-  get(child(dbRef, "users-"+mail.replace(".","__"))).then((snapshot) => {
-    //console.log("users-"+mail.replace(".","__"));
-
-    if (snapshot.exists()) {
-      console.log(snapshot.val());
-      document.querySelector('#person_name').innerHTML=" "+snapshot.val().FirstName;
-    } else {
-      console.log("No data available");
-    }
-  }).catch((error) => {
-    console.error(error);
-  });
-}
-
-
-/*
-  setUserProperties(analytics, Userdata).then(rtn =>{
-    console.log(rtn);
-    console.log('Registration completed login now');
-    registered();
-  });
-  */
-
-
-
-/*
-// generalised here
-const signinForm = document.querySelector('#signup-form');
-signinForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  // get user info
-  const email = signinForm['signup-email'].value;
-  const password = signinForm['signup-password'].value;
+        // get user info
+        const email = signinForm['signup-email'].value;
+        const password = signinForm['signup-password'].value;
 
 
 
@@ -297,24 +278,19 @@ signinForm.addEventListener('submit', (e) => {
 
 
 
-*/
-
-
-//export app,analytics,auth,usremlid;
-/*
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-// auth and references
-const auth=app.auth();
-const db=app.firestore();
-db.settings({timestampsInSnapshots:true});
-*/
-
-</script>
-
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-              <script src="scripts/control.js"></script>
+      */
+      //export app,analytics,auth,usremlid;
+      /*
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      // auth and references
+      const auth=app.auth();
+      const db=app.firestore();
+      db.settings({timestampsInSnapshots:true});
+      */
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts/control.js"></script>
   </body>
-
 </html>
