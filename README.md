@@ -2,6 +2,7 @@
 https://devenshraj.github.io/asign_2_avtaar/
 ![image](https://user-images.githubusercontent.com/69020033/155602695-cf75087c-3021-4720-a523-581783a62e3f.png)
 ![image](https://user-images.githubusercontent.com/69020033/155602809-d43acf6f-4fdd-4d05-8033-44534cdfabd1.png)
+![image](https://user-images.githubusercontent.com/69020033/155607370-b76a83c3-c524-4d62-988e-1ce2cc8c9e79.png)
 ![image](https://user-images.githubusercontent.com/69020033/155602857-e3db0892-7cc7-4b19-b474-cd7dc9ee6ccb.png)
 ![image](https://user-images.githubusercontent.com/69020033/155603014-4c358b09-d8e8-4f86-bc41-551db0633357.png)
 ![image](https://user-images.githubusercontent.com/69020033/155603120-2ced57ba-d602-4b3d-81ad-6c570304975c.png)
